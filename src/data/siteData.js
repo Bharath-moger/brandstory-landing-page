@@ -45,3 +45,14 @@ export const services = [
     description: "We deliver performance-focused PPC campaign management tailored for businesses in Abu Dhabi. As a certified Google Partner and Meta Partner agency, we optimize pay-per-click campaigns to ensure maximum reach, high-quality leads, and the best return on investment.",
   },
 ];
+
+export const differentiators = [
+  {
+    id: "human-ai-strategy",
+    title: "Human-Driven & AI-Enabled Strategy",
+    description: "We blend cutting-edge AI for data analysis, trend prediction, and optimization with human creativity, storytelling, and Abu Dhabi cultural insight. This ethical, balanced approach delivers innovative, emotionally resonant campaigns that ensure lasting engagement and strong ROI.",
+  },
+  { id: "transparency", title: "Transparency & Collaboration", description: null },
+  { id: "innovation", title: "Tailored, Results-Driven Innovation", description: null },
+  { id: "growth-engineering", title: "Growth Engineering Expertise", description: null },
+];
