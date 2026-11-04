@@ -24,3 +24,24 @@ export const clientLogos = [
   { id: "origin", src: "/assets/logos/image 26.png", alt: "Origin", width: 154, height: 50 },
   { id: "adarsh", src: "/assets/logos/images (11)-Photoroom 1.png", alt: "Adarsh Developers", width: 145, height: 50 },
 ];
+
+export const services = [
+  {
+    id: "seo",
+    title: "Search Engine Optimization (SEO)",
+    icon: "/assets/icons/seo.png",
+    description: "Search Engine Optimization (SEO) is crucial for enhancing your website’s visibility and attracting organic traffic. Our SEO experts in Abu Dhabi implement proven strategies to improve rankings, drive qualified traffic, and secure top positions in search results (SERPs).",
+  },
+  {
+    id: "smm",
+    title: "Social Media Marketing (SMM)",
+    icon: "/assets/icons/smm.svg",
+    description: "Boost your brand’s presence with targeted social media marketing. We design compelling campaigns that capture attention and connect with audiences across Facebook, Instagram, TikTok, LinkedIn, and Twitter in Abu Dhabi.",
+  },
+  {
+    id: "ppc",
+    title: "Pay Per Click (PPC)",
+    icon: "/assets/icons/ppc.svg",
+    description: "We deliver performance-focused PPC campaign management tailored for businesses in Abu Dhabi. As a certified Google Partner and Meta Partner agency, we optimize pay-per-click campaigns to ensure maximum reach, high-quality leads, and the best return on investment.",
+  },
+];
