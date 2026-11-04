@@ -4,6 +4,7 @@ import Services from "@/components/sections/Services";
 import About from "@/components/sections/About";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import TrustSection from "@/components/sections/TrustSection";
+import Statistics from "@/components/sections/Statistics";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <About />
         <WhyChooseUs />
         <TrustSection />
+        <Statistics />
       </main>
     </>
   );

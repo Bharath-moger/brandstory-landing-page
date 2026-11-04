@@ -77,3 +77,10 @@ export const trustCards = [
     description: "Our team excels in tackling Abu Dhabi’s specific digital marketing challenges, from multilingual audience targeting and rapid trend shifts to strict regulations and high expectations. Through data-driven, culturally attuned solutions, we create robust, adaptable strategies that ensure long-term success, strong ROI, and lasting brand preference in the competitive UAE landscape.",
   },
 ];
+
+export const statistics = [
+  { id: "campaigns", value: "350+", label: "Campaigns Executed" },
+  { id: "clients", value: "180+", label: "Satisfied Clients" },
+  { id: "clients-secondary", value: "10+", label: "Satisfied Clients" },
+  { id: "coffee", value: "600+", label: "Cups of Coffee" },
+];
