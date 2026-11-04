@@ -3,6 +3,7 @@ import Hero from "@/components/sections/Hero";
 import Services from "@/components/sections/Services";
 import About from "@/components/sections/About";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
+import TrustSection from "@/components/sections/TrustSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Services />
         <About />
         <WhyChooseUs />
+        <TrustSection />
       </main>
     </>
   );

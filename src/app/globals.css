@@ -343,3 +343,61 @@ a:focus-visible, button:focus-visible { outline: 3px solid #c9b6ff; outline-offs
   .why-item button img { width: 38px; height: 38px; }
   .why-panel { font-size: 16px; line-height: 1.5; padding-bottom: 24px; }
 }
+
+.trust-section { padding-block: 100px; background: #0a0b0f; }
+.trust-intro { width: calc(100% - 48px); margin-inline: auto; }
+.trust-intro > p {
+  max-width: 1090px;
+  margin: 50px auto 0;
+  color: #eeecf2;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+}
+.trust-grid {
+  width: 80%;
+  margin: 50px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(20px, 1.9841vw, 30px);
+}
+.trust-card {
+  min-width: 0;
+  min-height: 565px;
+  padding: 17px 20px 20px;
+  border-radius: 20px;
+  background: radial-gradient(ellipse at center, #282139, #1d1c27 85%);
+  isolation: isolate;
+}
+.trust-card-image {
+  display: block;
+  width: 195px;
+  height: 195px;
+  margin-inline: auto;
+  object-fit: contain;
+  mix-blend-mode: luminosity;
+}
+.trust-card h3 { margin: 28px 0 0; font-size: 24px; font-weight: 700; line-height: 1.3; }
+.trust-card p { margin: 20px 0 0; color: #f6f4fa; font-size: 20px; line-height: 1.3; }
+@media (max-width: 1199px) {
+  .trust-grid { width: calc(100% - 64px); gap: 20px; }
+  .trust-card h3 { font-size: 22px; }
+  .trust-card p { font-size: 18px; line-height: 1.4; }
+}
+@media (max-width: 1023px) {
+  .trust-section { padding-block: 80px; }
+  .trust-intro > p { margin-top: 32px; }
+  .trust-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 36px; gap: 24px; }
+  .trust-card { min-height: 0; }
+  .trust-card:last-child { grid-column: 1 / -1; width: calc((100% - 24px) / 2); justify-self: center; }
+}
+@media (max-width: 600px) {
+  .trust-section { padding-block: 64px; }
+  .trust-intro { width: calc(100% - 40px); }
+  .trust-intro > p { font-size: 16px; line-height: 1.5; margin-top: 24px; }
+  .trust-grid { width: calc(100% - 40px); grid-template-columns: 1fr; margin-top: 32px; gap: 20px; }
+  .trust-card { padding: 20px 24px 28px; }
+  .trust-card:last-child { grid-column: auto; width: auto; justify-self: stretch; }
+  .trust-card h3 { font-size: 22px; margin-top: 24px; }
+  .trust-card p { font-size: 16px; line-height: 1.5; margin-top: 16px; }
+}

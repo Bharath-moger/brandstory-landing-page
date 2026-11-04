@@ -56,3 +56,24 @@ export const differentiators = [
   { id: "innovation", title: "Tailored, Results-Driven Innovation", description: null },
   { id: "growth-engineering", title: "Growth Engineering Expertise", description: null },
 ];
+
+export const trustCards = [
+  {
+    id: "local-landscape",
+    title: "We Understand The Landscape",
+    image: "/assets/icons/Frame 1707483070.png",
+    description: "With deep local digital marketing expertise in Abu Dhabi, we provide sharp Abu Dhabi market insights into cultural nuances, affluent consumer behaviors, multilingual demands, and regulatory challenges. This insider knowledge helps us navigate the emirate’s dynamic ecosystem from Hub71 startups to ADGM enterprises for authentic, impactful brand connections.",
+  },
+  {
+    id: "tailored-strategies",
+    title: "Tailored Strategies for Success",
+    image: "/assets/icons/Frame 1707483071.png",
+    description: "We craft fully customized digital strategies that address Abu Dhabi’s unique digital marketing challenges, including intense competition, cultural diversity, and evolving trends. Blending global best practices with hyper-local insights, our approach delivers sustainable visibility, higher engagement, and measurable growth turning your brand into a preferred choice across the UAE.",
+  },
+  {
+    id: "market-challenges",
+    title: "Overcoming Market Challenges",
+    image: "/assets/icons/Frame 1707483072.png",
+    description: "Our team excels in tackling Abu Dhabi’s specific digital marketing challenges, from multilingual audience targeting and rapid trend shifts to strict regulations and high expectations. Through data-driven, culturally attuned solutions, we create robust, adaptable strategies that ensure long-term success, strong ROI, and lasting brand preference in the competitive UAE landscape.",
+  },
+];
