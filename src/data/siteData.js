@@ -141,3 +141,27 @@ export const footerSocials = [
   { label: "Instagram", symbol: "camera", href: "https://www.instagram.com/brandstory_uae/" },
   { label: "Twitter", symbol: "t", href: "https://twitter.com/brandstory_uae" },
 ];
+
+export const serviceLocations = [
+  [
+    { label: "Digital Marketing Agency in Dubai", href: brandstoryUrl },
+    { label: "Digital Marketing Agency in Sharjah", href: footerLinks[1].href },
+    { label: "Digital Marketing Agency in Abu Dhabi", href: footerLinks[0].href },
+    { label: "Digital Marketing Agency in Ajman", href: footerLinks[4].href },
+    { label: "PPC Agency in Dubai", href: footerServices[7].href },
+  ],
+  [
+    { label: "Digital Marketing Agency in Al Ain", href: serviceEnquiry("Digital Marketing Agency in Al Ain") },
+    { label: "Digital Marketing Agency in Fujairah", href: `${brandstoryUrl}/digital-marketing-agency-in-fujairah/` },
+    { label: "Digital Marketing Agency in Ras Al Khaimah", href: `${brandstoryUrl}/digital-marketing-agency-in-ras-al-khaimah/` },
+    { label: "Digital Marketing Agency in Bahrain", href: serviceEnquiry("Digital Marketing Agency in Bahrain") },
+    { label: "SEO Dubai", href: footerServices[3].href },
+  ],
+  [
+    { label: "Digital Marketing Agency in Qatar", href: serviceEnquiry("Digital Marketing Agency in Qatar") },
+    { label: "Digital Marketing Agency in Kuwait", href: serviceEnquiry("Digital Marketing Agency in Kuwait") },
+    { label: "PR Agency in Dubai", href: footerLinks[5].href },
+    { label: "Social Media Marketing Agency in Dubai", href: footerServices[4].href },
+    { label: "Content Writers in Dubai", href: footerLinks[7].href },
+  ],
+];
