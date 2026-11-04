@@ -108,3 +108,36 @@ export const caseStudies = [
   { id: "manufacturing", src: "/assets/images/case-study-manufacturing.png", alt: "Engineer using a tablet and digital manufacturing technology" },
   { id: "business", src: "/assets/images/case-study-business.png", alt: "Business professionals discussing a project in an office" },
 ];
+
+const brandstoryUrl = "https://www.brandstory.ae";
+const serviceEnquiry = (label) => `${contactEmail}?subject=${encodeURIComponent(label)}`;
+
+export const footerLinks = [
+  { label: "Digital Marketing Agency Abu Dhabi", href: `${brandstoryUrl}/digital-marketing-agency-in-abu-dhabi/` },
+  { label: "Digital Marketing Agency Sharjah", href: `${brandstoryUrl}/digital-marketing-agency-in-sharjah/` },
+  { label: "Digital Marketing Agency in Dubai", href: brandstoryUrl },
+  { label: "SEO Agency in Dubai", href: `${brandstoryUrl}/seo-services-company-in-dubai/` },
+  { label: "Digital Marketing Agency Ajman", href: `${brandstoryUrl}/digital-marketing-agency-in-ajman/` },
+  { label: "PR Agency in Dubai", href: serviceEnquiry("PR Agency in Dubai") },
+  { label: "B2B Company in Dubai", href: serviceEnquiry("B2B Company in Dubai") },
+  { label: "Content Writing Company in Dubai", href: serviceEnquiry("Content Writing Company in Dubai") },
+];
+
+export const footerServices = [
+  { label: "Digital Marketing Company Dubai", href: brandstoryUrl },
+  { label: "UI UX Design Services Dubai", href: `${brandstoryUrl}/ui-ux-design-company-in-dubai/` },
+  { label: "Web Design Company in Dubai", href: `${brandstoryUrl}/website-design-company-in-dubai/` },
+  { label: "SEO Company in Dubai", href: `${brandstoryUrl}/seo-services-company-in-dubai/` },
+  { label: "Social Media Marketing in Dubai", href: `${brandstoryUrl}/social-media-marketing-agency-in-dubai/` },
+  { label: "Mobile App Marketing Services", href: serviceEnquiry("Mobile App Marketing Services") },
+  { label: "Email Marketing Services in Dubai", href: `${brandstoryUrl}/email-marketing-company-in-dubai/` },
+  { label: "PPC Agency in Dubai", href: `${brandstoryUrl}/pay-per-click-ppc-services-in-dubai/` },
+];
+
+export const footerSocials = [
+  { label: "Linkedin", symbol: "in", href: "https://www.linkedin.com/company/brandstory-uae/" },
+  { label: "Youtube", symbol: "play", href: "https://www.youtube.com/results?search_query=Brandstory+UAE" },
+  { label: "Facebook", symbol: "f", href: "https://www.facebook.com/brandstory-uae-100351595015257/" },
+  { label: "Instagram", symbol: "camera", href: "https://www.instagram.com/brandstory_uae/" },
+  { label: "Twitter", symbol: "t", href: "https://twitter.com/brandstory_uae" },
+];
