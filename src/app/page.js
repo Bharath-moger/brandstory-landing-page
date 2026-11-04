@@ -6,6 +6,7 @@ import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import TrustSection from "@/components/sections/TrustSection";
 import Statistics from "@/components/sections/Statistics";
 import Team from "@/components/sections/Team";
+import FAQ from "@/components/sections/FAQ";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <TrustSection />
         <Statistics />
         <Team />
+        <FAQ />
       </main>
     </>
   );

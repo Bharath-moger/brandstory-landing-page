@@ -90,3 +90,15 @@ export const teamImages = [
   { id: "team-2", src: "/assets/images/team-2.png", alt: "The BrandStory team at work" },
   { id: "team-3", src: "/assets/images/team-3.png", alt: "BrandStory team members working together" },
 ];
+
+export const faqs = [
+  {
+    id: "business-growth",
+    question: "How Does Digital Marketing Support Business Growth In Abu Dhabi?",
+    answer: "Digital marketing helps businesses in Abu Dhabi build visibility, attract relevant audiences, and convert interest into leads through a mix of search, social, content, and performance channels.",
+  },
+  { id: "channels", question: "Which Digital Marketing Channels Work Best For Abu Dhabi Businesses?", answer: null },
+  { id: "local-market", question: "How Is Local Market Understanding Important In Digital Marketing?", answer: null },
+  { id: "results", question: "How Long Does It Take To See Results From Digital Marketing?", answer: null },
+  { id: "audiences", question: "Can Digital Marketing Help Reach Both Local And Regional Audiences?", answer: null },
+];
