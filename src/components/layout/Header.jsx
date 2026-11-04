@@ -43,7 +43,7 @@ export default function Header() {
           </a>
         ))}
       </nav>
-      <a className="quote-button" href={contactEmail}>Get quote</a>
+      <a className="quote-button" href= "#">Get quote</a>
     </header>
   );
 }

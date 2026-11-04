@@ -118,9 +118,9 @@ export const footerLinks = [
   { label: "Digital Marketing Agency in Dubai", href: brandstoryUrl },
   { label: "SEO Agency in Dubai", href: `${brandstoryUrl}/seo-services-company-in-dubai/` },
   { label: "Digital Marketing Agency Ajman", href: `${brandstoryUrl}/digital-marketing-agency-in-ajman/` },
-  { label: "PR Agency in Dubai", href: serviceEnquiry("PR Agency in Dubai") },
-  { label: "B2B Company in Dubai", href: serviceEnquiry("B2B Company in Dubai") },
-  { label: "Content Writing Company in Dubai", href: serviceEnquiry("Content Writing Company in Dubai") },
+  { label: "PR Agency in Dubai", href: `${brandstoryUrl}/pr-agency-dubai/` },
+  { label: "B2B Company in Dubai", href: `${brandstoryUrl}/b2b-company-in-dubai/` },
+  { label: "Content Writing Company in Dubai", href: `${brandstoryUrl}/content-writing-company-in-dubai/` },
 ];
 
 export const footerServices = [
@@ -129,14 +129,14 @@ export const footerServices = [
   { label: "Web Design Company in Dubai", href: `${brandstoryUrl}/website-design-company-in-dubai/` },
   { label: "SEO Company in Dubai", href: `${brandstoryUrl}/seo-services-company-in-dubai/` },
   { label: "Social Media Marketing in Dubai", href: `${brandstoryUrl}/social-media-marketing-agency-in-dubai/` },
-  { label: "Mobile App Marketing Services", href: serviceEnquiry("Mobile App Marketing Services") },
+  { label: "Mobile App Marketing Services", href: `${brandstoryUrl}/mobile-app-marketing-dubai/` },
   { label: "Email Marketing Services in Dubai", href: `${brandstoryUrl}/email-marketing-company-in-dubai/` },
   { label: "PPC Agency in Dubai", href: `${brandstoryUrl}/pay-per-click-ppc-services-in-dubai/` },
 ];
 
 export const footerSocials = [
   { label: "Linkedin", symbol: "in", href: "https://www.linkedin.com/company/brandstory-uae/" },
-  { label: "Youtube", symbol: "play", href: "https://www.youtube.com/results?search_query=Brandstory+UAE" },
+  { label: "Youtube", symbol: "play", href: "https://www.youtube.com/channel/UCkoyMmgBKHp_cpHzgsKxp9g/videos" },
   { label: "Facebook", symbol: "f", href: "https://www.facebook.com/brandstory-uae-100351595015257/" },
   { label: "Instagram", symbol: "camera", href: "https://www.instagram.com/brandstory_uae/" },
   { label: "Twitter", symbol: "t", href: "https://twitter.com/brandstory_uae" },
@@ -151,15 +151,15 @@ export const serviceLocations = [
     { label: "PPC Agency in Dubai", href: footerServices[7].href },
   ],
   [
-    { label: "Digital Marketing Agency in Al Ain", href: serviceEnquiry("Digital Marketing Agency in Al Ain") },
+    { label: "Digital Marketing Agency in Al Ain", href: `${brandstoryUrl}/digital-marketing-agency-in-al-ain/` },
     { label: "Digital Marketing Agency in Fujairah", href: `${brandstoryUrl}/digital-marketing-agency-in-fujairah/` },
     { label: "Digital Marketing Agency in Ras Al Khaimah", href: `${brandstoryUrl}/digital-marketing-agency-in-ras-al-khaimah/` },
-    { label: "Digital Marketing Agency in Bahrain", href: serviceEnquiry("Digital Marketing Agency in Bahrain") },
+    { label: "Digital Marketing Agency in Bahrain", href: `${brandstoryUrl}/bahrain/digital-marketing-services/` },
     { label: "SEO Dubai", href: footerServices[3].href },
   ],
   [
-    { label: "Digital Marketing Agency in Qatar", href: serviceEnquiry("Digital Marketing Agency in Qatar") },
-    { label: "Digital Marketing Agency in Kuwait", href: serviceEnquiry("Digital Marketing Agency in Kuwait") },
+    { label: "Digital Marketing Agency in Qatar", href: `${brandstoryUrl}/qatar/digital-marketing-services/` },
+    { label: "Digital Marketing Agency in Kuwait", href: `${brandstoryUrl}/kuwait/digital-marketing-services/` },
     { label: "PR Agency in Dubai", href: footerLinks[5].href },
     { label: "Social Media Marketing Agency in Dubai", href: footerServices[4].href },
     { label: "Content Writers in Dubai", href: footerLinks[7].href },
