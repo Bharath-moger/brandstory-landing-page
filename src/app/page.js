@@ -7,6 +7,7 @@ import TrustSection from "@/components/sections/TrustSection";
 import Statistics from "@/components/sections/Statistics";
 import Team from "@/components/sections/Team";
 import FAQ from "@/components/sections/FAQ";
+import CaseStudies from "@/components/sections/CaseStudies";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Statistics />
         <Team />
         <FAQ />
+        <CaseStudies />
       </main>
     </>
   );

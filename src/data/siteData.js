@@ -102,3 +102,9 @@ export const faqs = [
   { id: "results", question: "How Long Does It Take To See Results From Digital Marketing?", answer: null },
   { id: "audiences", question: "Can Digital Marketing Help Reach Both Local And Regional Audiences?", answer: null },
 ];
+
+export const caseStudies = [
+  { id: "architecture", src: "/assets/images/case-study-architecture.png", alt: "Glass building overlooking a city skyline" },
+  { id: "manufacturing", src: "/assets/images/case-study-manufacturing.png", alt: "Engineer using a tablet and digital manufacturing technology" },
+  { id: "business", src: "/assets/images/case-study-business.png", alt: "Business professionals discussing a project in an office" },
+];
