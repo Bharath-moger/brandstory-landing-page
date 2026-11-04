@@ -1,22 +1,16 @@
-
 import Header from "@/components/layout/Header";
-
 import Hero from "@/components/sections/Hero";
-import Services from "@/components/sections/Services";
-import About from "@/components/sections/About";
-import WhyChooseUs from "@/components/sections/WhyChooseUs";
 
 export default function Home() {
   return (
     <>
-      <Header />
-
-      <main>
-        <Hero />
-        <Services />
-        <About />
-        <WhyChooseUs />
-      </main>
+      <a className="skip-link" href="#main-content">Skip to content</a>
+      <div className="hero-section">
+        <Header />
+        <main id="main-content">
+          <Hero />
+        </main>
+      </div>
     </>
   );
 }
