@@ -131,7 +131,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #c9b6ff; outline-offs
 }
 .services-section {
   background: #0a0b0f;
-  padding: 100px 0;
+  padding: 100px 0 50px 0;
 }
 .services-section .section-heading { padding-inline: 20px; }
 .services-grid {
@@ -193,4 +193,73 @@ a:focus-visible, button:focus-visible { outline: 3px solid #c9b6ff; outline-offs
   .service-card h3 { font-size: 22px; margin-top: 30px; }
   .service-card p { margin-top: 20px; font-size: 16px; line-height: 1.5; }
   .service-link { margin-top: 28px; min-height: 44px; font-size: 16px; }
+}
+
+.about-section {
+  padding-block: 50px;
+  background: #0a0b0f;
+  overflow: hidden;
+  isolation: isolate;
+}
+.about-layout {
+  width: calc(100% - 10.582%);
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 726fr) minmax(0, 646fr);
+  gap: clamp(32px, 2.6455vw, 50px);
+  align-items: start;
+}
+/* The supplied export includes the illustration's transparent glow and margins.
+   Position the complete asset so its visible panel aligns with the text column. */
+.about-illustration {
+  position: relative;
+  aspect-ratio: 726 / 534;
+  min-width: 0;
+  z-index: -1;
+}
+.about-illustration img {
+  position: absolute;
+  width: 136.0882%;
+  max-width: none;
+  height: auto;
+  left: -22.865%;
+  top: -42.1348%;
+}
+.about-content { min-width: 0; }
+.about-content .section-heading { margin: 0; text-align: left; font-weight: 400; }
+.about-points {
+  display: grid;
+  gap: 20px;
+  margin: 50px 0 0;
+  padding-left: 30px;
+  list-style: disc;
+  color: #f3f0f7;
+  font-size: 20px;
+  line-height: 1.3;
+}
+.about-points li { padding-left: 0; }
+.about-points li::marker { font-size: 12px; }
+@media (max-width: 1199px) {
+  .about-layout { width: calc(100% - 64px); gap: 28px; }
+  .about-content .section-heading { font-size: 32px; }
+  .about-points { margin-top: 32px; font-size: 18px; line-height: 1.4; }
+  .about-heading-break { display: none; }
+}
+@media (max-width: 1023px) {
+  .about-section { padding-block: 80px; }
+  .about-layout { align-items: center; }
+  .about-content .section-heading { font-size: 28px; }
+  .about-points { font-size: 17px; padding-left: 22px; }
+}
+@media (max-width: 767px) {
+  .about-layout { width: calc(100% - 48px); grid-template-columns: 1fr; gap: 40px; }
+  .about-illustration { width: 100%; max-width: 600px; margin-inline: auto; }
+  .about-content .section-heading { font-size: 30px; }
+  .about-points { margin-top: 28px; font-size: 17px; line-height: 1.5; }
+}
+@media (max-width: 600px) {
+  .about-section { padding-block: 64px; }
+  .about-layout { width: calc(100% - 40px); gap: 32px; }
+  .about-content .section-heading { font-size: 28px; }
+  .about-points { font-size: 16px; }
 }
