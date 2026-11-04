@@ -5,6 +5,7 @@ import About from "@/components/sections/About";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import TrustSection from "@/components/sections/TrustSection";
 import Statistics from "@/components/sections/Statistics";
+import Team from "@/components/sections/Team";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <WhyChooseUs />
         <TrustSection />
         <Statistics />
+        <Team />
       </main>
     </>
   );

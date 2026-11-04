@@ -84,3 +84,9 @@ export const statistics = [
   { id: "clients-secondary", value: "10+", label: "Satisfied Clients" },
   { id: "coffee", value: "600+", label: "Cups of Coffee" },
 ];
+
+export const teamImages = [
+  { id: "team-1", src: "/assets/images/team-1.png", alt: "BrandStory colleagues collaborating in the office" },
+  { id: "team-2", src: "/assets/images/team-2.png", alt: "The BrandStory team at work" },
+  { id: "team-3", src: "/assets/images/team-3.png", alt: "BrandStory team members working together" },
+];
